@@ -136,6 +136,27 @@ content:
           ◦ Executed a bidirectional Sequence-to-Sequence network, incorporating both forward and backward encoding. Implementation, succeeded in a commendable test Bleu score of 0.369, highlighting the model’s proficiency in generating high-quality sequences.
           
           ◦ Performed a Sequence-to-Sequence network with bidirectional encoding and incorporated an Attention mechanism in the decoding process. This advanced architecture led to remarkable results, attaining a notable test Bleu score of 0.406. The model’s ability to generate accurate and coherent sequences was improved by the inclusion of Attention.
+          
+      - layout: left
+        #border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Robust Pathfinding: Tabular and Deep Reinforcement Learning in Deterministic and Stochastic Grid Worlds
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+        additional_links:
+          - title: CodeName-Detective/Robust-Pathfinding-Tabular-and-DeepRL-in-Deterministic-and-Stochastic-Grid-Worlds
+            icon: fab fa-github
+            url: github.com/CodeName-Detective/Robust-Pathfinding-Tabular-and-DeepRL-in-Deterministic-and-Stochastic-Grid-Worlds
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          This project explores the efficacy of reinforcement learning algorithms in navigating complex grid environments with varying levels of determinism and stochasticity.
+        description: | # this will include new lines to allow paragraphs
+          ◦ Three distinct grid worlds are studied, ranging from deterministic to stochastic transitions and rewards.
+          
+          ◦ Implemented reinforcement learning algorithms include SARSA, Q-Learning, N-Step SARSA, Double Q-Learning, Deep Q-Learning, and Double Deep Q-Learning.
+      
       - layout: left
         #border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
