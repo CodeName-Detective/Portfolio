@@ -68,6 +68,30 @@ content:
       - layout: left
         #border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
+        title: Prompt-to-Song Generation using Large Language Models
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+        additional_links:
+          - title:  CodeName-Detective/Prompt-to-Song-Generation-using-Large-Language-Models
+            icon: fab fa-github
+            url: github.com/CodeName-Detective/Prompt-to-Song-Generation-using-Large-Language-Models
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+           The process involves understanding the semantics of the prompt, generating relevant lyrics, identifying the musical genre, and composing melodic and harmonic elements to create the final song. 
+        description: | # this will include new lines to allow paragraphs
+          ◦ The methodology is divided into three main stages: Lyric Generation from Textual Prompts, Genre Classification of the Lyrics, and Chord Progression Generation Conditioned on Lyrics and Genre.
+          
+          ◦ Lyric Generation from Textual Prompts - Fine-tuned LLMs (FlanT5 and Llama models) generate lyrics from encoded prompts, with the LLM fine-tuned on a lyrics-prompt dataset for three epochs.
+          
+          ◦ Genre Classification of the Lyrics - Pre-trained models (BERT, DistilBERT, and RoBERTa) are fine-tuned for genre classification to classify the generated lyrics.
+          
+          ◦ Chord Progression Generation Conditioned on Lyrics and Genre - Combines a two-stage encoder-decoder model (DistilBERT and LSTM) with reinforcement learning (RLHF) to generate chord progressions based on lyrical context.
+
+      - layout: left
+        #border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
         title: Adaptive Deep-Learning for Environment Agnostic Human Action Recognition
         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         #link_text: Link Text
@@ -88,6 +112,47 @@ content:
           ◦ Segmented the videos for an effective background and human masking
           
           ◦ Achieved notable metrics: AlexNet (up to 36% accuracy, 37.51% precision) and VGG (up to 39% accuracy, 35.26% precision) under varying conditions.
+
+      - layout: left
+        #border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: A2C - Exploring OpenAI Gym Environments and Enhancing Actor Critic Algorithms for Optimal Performance
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+        additional_links:
+          - title:  CodeName-Detective/A2C-Exploring-OpenAI-Gym-Environments-and-Enhancing-Actor-Critic-Algorithms-for-Optimal-Performance
+            icon: fab fa-github
+            url: github.com/CodeName-Detective/A2C-Exploring-OpenAI-Gym-Environments-and-Enhancing-Actor-Critic-Algorithms-for-Optimal-Performance
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+           Explores the OpenAI Gym library, implementing the DQN algorithm as described in DeepMind's seminal paper, and subsequently improving the DQN algorithm for enhanced performance and stability.
+        description: | # this will include new lines to allow paragraphs
+          ◦ Implemented A2C
+          
+          ◦ Solved Environments - Cartpole, Lunar Lander, Inverted Pendulum, Bi-Pedal Walker
+
+      - layout: left
+        #border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Deep Q-Learning - Exploring OpenAI Gym Environments and Enhancing DQN for Optimal Performance
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+        additional_links:
+          - title:  CodeName-Detective/Deep-Q-Learning-Exploring-OpenAI-Gym-Environments-and-Enhancing-DQN-for-Optimal-Performance
+            icon: fab fa-github
+            url: github.com/CodeName-Detective/Deep-Q-Learning-Exploring-OpenAI-Gym-Environments-and-Enhancing-DQN-for-Optimal-Performance
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+           Explores the OpenAI Gym library, implementing the DQN algorithm as described in DeepMind's seminal paper, and subsequently improving the DQN algorithm for enhanced performance and stability.
+        description: | # this will include new lines to allow paragraphs
+          ◦ Implemented DQN and Double DQN
+          
+          ◦ Solved Environments - Cartpole, Lunar Lander
+
       - layout: left
         #border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
@@ -115,6 +180,7 @@ content:
           ◦ Integrated Open AI's Retrieval Augmented Generation to the system to make responses more sophisticated.
           
           ◦ Developed a chatbot web application using ReactJs.
+      
       - layout: left
         #border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
@@ -180,6 +246,7 @@ content:
           ◦ Crafted a text preprocessing module for document tokenization and normalization.
           
           ◦ Enabled interactive querying through a Flask web application, demonstrating web development and information retrieval skills.
+
       - layout: left
         #border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
@@ -203,6 +270,29 @@ content:
           ◦ Developed and trained a customized AlexNet model for classifying the OCTMNIST dataset, yielding an accuracy of 71%.
           
           ◦ Created and trained a customized AlexNet model to classify a 10-class ImageNet dataset, achieving an accuracy of 68.4%. Then, I implemented the VGG-13 model and employed Mixed Precision Training, which led to a notable accuracy improvement of 71.8%.
+
+      - layout: left
+        #border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Reinforcement Learning for Stock Market Trading - A Case Study on Nvidia Stock
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+        additional_links:
+          - title: CodeName-Detective/Reinforcement-Learning-for-Stock-Market-Trading-A-Case-Study-on-Nvidia-Stock
+            icon: fab fa-github
+            url: github.com/CodeName-Detective/Reinforcement-Learning-for-Stock-Market-Trading-A-Case-Study-on-Nvidia-Stock
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          This project applies a Q-learning agent to develop a trading strategy that maximizes profit through stock trading. 
+        description: | # this will include new lines to allow paragraphs
+          ◦ Leverage Q-learning to develop an optimized trading strategy for stock trading.
+          
+          ◦ Trained to learn stock price trends and make buy, sell, or hold decisions based on its learned strategy.
+
+          ◦  Percentage return on investment (ROI) willl be Perfromance Metric.
+
       - layout: left
         #border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
