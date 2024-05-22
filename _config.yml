@@ -50,7 +50,7 @@ linkedin_username: shri-harsha-adapala
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/bat_baby.JPG
+about_profile_image: images/batman_coumputer.JPG
 about_content: | # this will include new lines to allow paragraphs
   You can call me Shri and I am a Research Assitant at the University at Buffalo working in the fields of Conversational AI and Instance Segmentation. I also have experience in Cloud Platforms and Robotic Process Automation.
   
