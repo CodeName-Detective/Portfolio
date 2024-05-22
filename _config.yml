@@ -92,6 +92,26 @@ content:
       - layout: left
         #border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
+        title: Exploring Multi-Agent Reinforcement Learning in Cooperative Gridworld and Complex Multi-Agent Environments
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+        additional_links:
+          - title:  CodeName-Detective/Multi-Agent-RL-in-Gridworld-Complex-Environments
+            icon: fab fa-github
+            url: github.com/CodeName-Detective/Multi-Agent-RL-in-Gridworld-Complex-Environments
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Exploring Multiagent Systems utilizing Reinforcement Learning within Cooperative and Mixed Cooperative and Competitive Environments.
+        description: | # this will include new lines to allow paragraphs
+          ◦ Solved Environments - Grid World Cooperative Environment, Mixed Cooperative and Competitive Environments Multiparticle Simple Adversary Environment.
+          
+          ◦ Implemented Algorithms - Decentralized Q-Learning, Correlated Q-Learning, REINFORCE, MultiAgent Deep Q-Learning, MultiAgent Deep Deterministic Policy Gradient.
+          
+      - layout: left
+        #border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
         title: Adaptive Deep-Learning for Environment Agnostic Human Action Recognition
         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         #link_text: Link Text
